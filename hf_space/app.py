@@ -30,7 +30,20 @@ exclude = [
 feature_columns = [c for c in df_sample.columns if c not in exclude]
 print(f"Model loaded with {len(feature_columns)} features.")
 
+try:
+    import spaces
+except ImportError:
+    class spaces:
+        @staticmethod
+        def GPU(func=None, **kwargs):
+            if func is not None:
+                return func
+            def decorator(f):
+                return f
+            return decorator
 
+
+@spaces.GPU
 def predict_yield(
     irradiance_ghi: float,
     wind_speed: float,
