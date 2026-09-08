@@ -1,0 +1,26 @@
+@import 'tailwindcss';
+
+@theme inline {
+  --font-sans: var(--font-geist);
+  --font-mono: var(--font-mono);
+  --color-background: #f4f8f8;
+  --color-foreground: #243746;
+  --color-card: #ffffff;
+  --color-card-foreground: #243746;
+  --color-border: #dce4e8;
+  --color-muted: #6f7f89;
+  --color-solar: #e3b341;
+  --color-wind: #2f8f72;
+  --color-hybrid: #243b53;
+}
+
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+html { background: #f4f8f8; }
+body { margin: 0; background: #f4f8f8; color: #243746; min-width: 320px; }
+button, input { font: inherit; }
+button { cursor: pointer; }
+.recharts-cartesian-grid-horizontal line, .recharts-cartesian-grid-vertical line { stroke: #edf1f2; }
+.recharts-text { fill: #84929b; font-size: 11px; }
+@keyframes pulse-dot { 50% { opacity: .45; transform: scale(.8); } }
+.pulse-dot { animation: pulse-dot 2s ease-in-out infinite; }
