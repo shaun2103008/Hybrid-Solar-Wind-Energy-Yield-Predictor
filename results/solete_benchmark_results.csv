@@ -1,0 +1,7 @@
+Model,R2,MAE_kW,RMSE_kW,Pearson_r,Train_Time_s
+Hybrid Voting Ensemble,0.9227,0.235,0.473,0.9607,2.87
+LightGBM,0.9224,0.238,0.473,0.9606,1.62
+XGBoost,0.9214,0.24,0.477,0.96,0.42
+Random Forest,0.9194,0.239,0.482,0.959,2.4
+Gradient Boosting,0.9187,0.246,0.485,0.9585,10.5
+Ridge Regression,0.9035,0.295,0.528,0.9525,0.01

@@ -1,0 +1,26 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environments
+env/
+venv/
+.venv/
+ENV/
+
+# Large raw datasets and model binaries
+dataset/hybrid/solete/*.h5
+dataset/hybrid/solete/*.csv
+*.h5
+*.joblib
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE settings
+.vscode/
+.idea/

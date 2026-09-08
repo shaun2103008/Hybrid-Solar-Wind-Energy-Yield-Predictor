@@ -1,0 +1,38 @@
+{
+  "dataset_name": "Co-Located Hybrid Solar-Wind Plant SCADA Dataset",
+  "sampling_resolution": "5 minutes",
+  "total_valid_rows": 1680,
+  "total_columns": 148,
+  "plants": [
+    {
+      "plant_index": 1,
+      "capacity_mw": 255.25
+    },
+    {
+      "plant_index": 2,
+      "capacity_mw": 445.49
+    }
+  ],
+  "key_feature_samples": [
+    "timestamp_utc",
+    "solar_power_kW",
+    "wind_power_kW",
+    "hybrid_power_kW",
+    "irradiance_ghi",
+    "temperature_C",
+    "wind_speed_hub",
+    "wind_direction_deg",
+    "cloud_cover_pct",
+    "solar_lag_15m",
+    "wind_lag_15m",
+    "hybrid_lag_15m",
+    "target_hybrid_1h"
+  ],
+  "correlations_with_hybrid_power": {
+    "solar_power_kW": 0.752,
+    "wind_power_kW": 0.867,
+    "wind_speed_hub": 0.0,
+    "irradiance_ghi": 0.71,
+    "hybrid_lag_15m": 0.716
+  }
+}

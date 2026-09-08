@@ -1,0 +1,25 @@
+{
+  "downloaded": [
+    {
+      "name": "OPSD",
+      "path": "D:\\Projects\\Hybrid Solar-Wind Energy Yield Predictor\\dataset\\grid\\opsd_europe_hourly.csv"
+    },
+    {
+      "name": "GEFCom2014",
+      "path": "D:\\Projects\\Hybrid Solar-Wind Energy Yield Predictor\\dataset\\benchmarks\\GEFCom2014"
+    },
+    {
+      "name": "Open-Meteo Germany (OPSD Paired)",
+      "path": "D:\\Projects\\Hybrid Solar-Wind Energy Yield Predictor\\dataset\\weather\\open_meteo_germany_2019_2020.json"
+    },
+    {
+      "name": "Open-Meteo Delhi 2023",
+      "path": "D:\\Projects\\Hybrid Solar-Wind Energy Yield Predictor\\dataset\\weather\\open_meteo_delhi_2023.json"
+    },
+    {
+      "name": "Open-Meteo Copenhagen",
+      "path": "D:\\Projects\\Hybrid Solar-Wind Energy Yield Predictor\\dataset\\weather\\open_meteo_copenhagen_solete.json"
+    }
+  ],
+  "failed": []
+}
